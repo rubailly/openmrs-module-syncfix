@@ -1,0 +1,38 @@
+<items>
+	<SyncItem containedType="org.openmrs.Patient" key="16071737-e9b3-48f4-a1eb-c64edf7f2158"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.Patient><personCreator type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</personCreator><birthdateEstimated type="boolean">true</birthdateEstimated><personDateChanged type="timestamp">2016-02-17T11:38:31.403+0200</personDateChanged><personVoided type="boolean">false</personVoided><creator type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</creator><personChangedBy type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</personChangedBy><patient type="boolean">false</patient><personDateCreated type="timestamp">2016-02-17T11:38:31.403+0200</personDateCreated><voided type="boolean">false</voided><birthdate type="timestamp">1984-01-01T11:38:31.403+0200</birthdate><dateCreated type="timestamp">2016-02-17T11:38:31.438+0200</dateCreated><gender type="string">F</gender><uuid type="string">16071737-e9b3-48f4-a1eb-c64edf7f2158</uuid><dead type="boolean">false</dead></org.openmrs.Patient>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonAddress" key="ffaac307-4bfd-41ec-b1b5-e0612b7a9ad4"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonAddress><person type="org.openmrs.Person">16071737-e9b3-48f4-a1eb-c64edf7f2158</person><countyDistrict type="string">Kayonza</countyDistrict><voided type="boolean">false</voided><dateCreated type="timestamp">2016-02-17T11:38:31.403+0200</dateCreated><stateProvince type="string">Eastern Province/Uburasirazuba</stateProvince><cityVillage type="string">Ndego</cityVillage><address1 type="string">Kumunini</address1><address3 type="string">Karambi</address3><uuid type="string">ffaac307-4bfd-41ec-b1b5-e0612b7a9ad4</uuid><preferred type="boolean">false</preferred><creator type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</creator></org.openmrs.PersonAddress>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonName" key="8d4139a1-e5c1-493d-8746-661b0c138fc3"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonName><changedBy type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</changedBy><person type="org.openmrs.Person">16071737-e9b3-48f4-a1eb-c64edf7f2158</person><voided type="boolean">false</voided><familyName type="string">CLAUDINE</familyName><dateCreated type="timestamp">2016-02-17T11:38:31.403+0200</dateCreated><givenName type="string">UWIZEYIMANA</givenName><uuid type="string">8d4139a1-e5c1-493d-8746-661b0c138fc3</uuid><preferred type="boolean">false</preferred><dateChanged type="timestamp">2016-02-17T11:38:31.403+0200</dateChanged><creator type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</creator></org.openmrs.PersonName>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonAttribute" key="df754c94-0fc2-475f-8970-96bb9c6af331"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonAttribute><person type="org.openmrs.Person">16071737-e9b3-48f4-a1eb-c64edf7f2158</person><voided type="boolean">false</voided><value type="org.openmrs.Location">a2e19a9a-26fe-102b-80cb-0017a47871b2</value><dateCreated type="timestamp">2016-02-17T11:38:31.492+0200</dateCreated><attributeType type="org.openmrs.PersonAttributeType">8d87236c-c2cc-11de-8d13-0010c6dffd0f</attributeType><uuid type="string">df754c94-0fc2-475f-8970-96bb9c6af331</uuid><creator type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</creator></org.openmrs.PersonAttribute>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PatientIdentifier" key="26fb94d5-716e-4898-acca-a64a8af0ce31"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PatientIdentifier><patient type="org.openmrs.Patient">16071737-e9b3-48f4-a1eb-c64edf7f2158</patient><location type="org.openmrs.Location">a2e19a9a-26fe-102b-80cb-0017a47871b2</location><voided type="boolean">false</voided><dateCreated type="timestamp">2016-02-17T11:38:31.403+0200</dateCreated><uuid type="string">26fb94d5-716e-4898-acca-a64a8af0ce31</uuid><preferred type="boolean">true</preferred><identifierType type="org.openmrs.PatientIdentifierType">c147ae5a-2700-102b-80cb-0017a47871b2</identifierType><identifier type="string">966563</identifier><creator type="org.openmrs.User">a7249224-c1aa-41d9-a7ca-abcc1d4f92f5</creator></org.openmrs.PatientIdentifier>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="16071737-e9b3-48f4-a1eb-c64edf7f2158|addresses" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="addresses" type="org.openmrs.Patient" uuid="16071737-e9b3-48f4-a1eb-c64edf7f2158"/><entry action="update" type="org.openmrs.PersonAddress" uuid="ffaac307-4bfd-41ec-b1b5-e0612b7a9ad4"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="16071737-e9b3-48f4-a1eb-c64edf7f2158|names" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="names" type="org.openmrs.Patient" uuid="16071737-e9b3-48f4-a1eb-c64edf7f2158"/><entry action="update" type="org.openmrs.PersonName" uuid="8d4139a1-e5c1-493d-8746-661b0c138fc3"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="16071737-e9b3-48f4-a1eb-c64edf7f2158|attributes" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="attributes" type="org.openmrs.Patient" uuid="16071737-e9b3-48f4-a1eb-c64edf7f2158"/><entry action="update" type="org.openmrs.PersonAttribute" uuid="df754c94-0fc2-475f-8970-96bb9c6af331"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSet"
+		key="16071737-e9b3-48f4-a1eb-c64edf7f2158|identifiers" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSet><owner action="recreate" properyName="identifiers" type="org.openmrs.Patient" uuid="16071737-e9b3-48f4-a1eb-c64edf7f2158"/><entry action="update" type="org.openmrs.PatientIdentifier" uuid="26fb94d5-716e-4898-acca-a64a8af0ce31"/></org.hibernate.collection.PersistentSet>]]></content>
+	</SyncItem>
+</items>

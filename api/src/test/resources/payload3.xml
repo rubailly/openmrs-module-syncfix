@@ -1,0 +1,38 @@
+<items>
+	<SyncItem containedType="org.openmrs.Patient" key="de0d8513-8a1e-40f6-830d-9a7be1c9a984"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.Patient><patient type="boolean">false</patient><personCreator type="org.openmrs.User">92cb7aa0-c0ca-4d99-8228-a1cbba67cb9e</personCreator><personDateCreated type="timestamp">2016-02-17T11:54:36.540+0200</personDateCreated><birthdateEstimated type="boolean">true</birthdateEstimated><voided type="boolean">false</voided><birthdate type="timestamp">1946-01-01T00:00:00.000+0200</birthdate><dateCreated type="timestamp">2016-02-17T11:54:36.568+0200</dateCreated><gender type="string">F</gender><personVoided type="boolean">false</personVoided><uuid type="string">de0d8513-8a1e-40f6-830d-9a7be1c9a984</uuid><dead type="boolean">false</dead><creator type="org.openmrs.User">92cb7aa0-c0ca-4d99-8228-a1cbba67cb9e</creator></org.openmrs.Patient>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonAddress" key="ebbf8a27-779e-43b6-9c03-b495e890e806"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonAddress><person type="org.openmrs.Person">de0d8513-8a1e-40f6-830d-9a7be1c9a984</person><countyDistrict type="string">Kayonza</countyDistrict><voided type="boolean">false</voided><dateCreated type="timestamp">2016-02-17T11:54:36.582+0200</dateCreated><stateProvince type="string">Eastern Province/Uburasirazuba</stateProvince><cityVillage type="string">Nyamirama</cityVillage><address1 type="string">Bwiza</address1><address3 type="string">Rurambi</address3><uuid type="string">ebbf8a27-779e-43b6-9c03-b495e890e806</uuid><preferred type="boolean">true</preferred><creator type="org.openmrs.User">92cb7aa0-c0ca-4d99-8228-a1cbba67cb9e</creator><country type="string">Rwanda</country></org.openmrs.PersonAddress>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonName" key="0b01762a-ca78-43e3-b182-a0195143b041"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonName><person type="org.openmrs.Person">de0d8513-8a1e-40f6-830d-9a7be1c9a984</person><voided type="boolean">false</voided><familyName type="string">NIKOBAHOZE</familyName><dateCreated type="timestamp">2016-02-17T11:54:36.599+0200</dateCreated><givenName type="string">Felicite</givenName><uuid type="string">0b01762a-ca78-43e3-b182-a0195143b041</uuid><preferred type="boolean">true</preferred><creator type="org.openmrs.User">92cb7aa0-c0ca-4d99-8228-a1cbba67cb9e</creator></org.openmrs.PersonName>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonAttribute" key="a228ce1b-bf9e-4e9d-921d-94e79cb749cd"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonAttribute><person type="org.openmrs.Person">de0d8513-8a1e-40f6-830d-9a7be1c9a984</person><voided type="boolean">false</voided><value type="org.openmrs.Location">38c4b94b-97a6-4f2c-bca6-c28a37cf60ed</value><dateCreated type="timestamp">2016-02-17T11:54:36.611+0200</dateCreated><attributeType type="org.openmrs.PersonAttributeType">8d87236c-c2cc-11de-8d13-0010c6dffd0f</attributeType><uuid type="string">a228ce1b-bf9e-4e9d-921d-94e79cb749cd</uuid><creator type="org.openmrs.User">92cb7aa0-c0ca-4d99-8228-a1cbba67cb9e</creator></org.openmrs.PersonAttribute>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PatientIdentifier" key="e3c3294b-8ff2-411b-8d5b-36403411e040"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PatientIdentifier><patient type="org.openmrs.Patient">de0d8513-8a1e-40f6-830d-9a7be1c9a984</patient><location type="org.openmrs.Location">38c4b94b-97a6-4f2c-bca6-c28a37cf60ed</location><voided type="boolean">false</voided><dateCreated type="timestamp">2016-02-17T11:54:36.624+0200</dateCreated><uuid type="string">e3c3294b-8ff2-411b-8d5b-36403411e040</uuid><preferred type="boolean">true</preferred><identifierType type="org.openmrs.PatientIdentifierType">4e458867-9a68-4e55-9fe0-fb49fac4e6b0</identifierType><identifier type="string">41703PWK-C</identifier><creator type="org.openmrs.User">92cb7aa0-c0ca-4d99-8228-a1cbba67cb9e</creator></org.openmrs.PatientIdentifier>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="de0d8513-8a1e-40f6-830d-9a7be1c9a984|addresses" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="addresses" type="org.openmrs.Patient" uuid="de0d8513-8a1e-40f6-830d-9a7be1c9a984"/><entry action="update" type="org.openmrs.PersonAddress" uuid="ebbf8a27-779e-43b6-9c03-b495e890e806"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="de0d8513-8a1e-40f6-830d-9a7be1c9a984|names" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="names" type="org.openmrs.Patient" uuid="de0d8513-8a1e-40f6-830d-9a7be1c9a984"/><entry action="update" type="org.openmrs.PersonName" uuid="0b01762a-ca78-43e3-b182-a0195143b041"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="de0d8513-8a1e-40f6-830d-9a7be1c9a984|attributes" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="attributes" type="org.openmrs.Patient" uuid="de0d8513-8a1e-40f6-830d-9a7be1c9a984"/><entry action="update" type="org.openmrs.PersonAttribute" uuid="a228ce1b-bf9e-4e9d-921d-94e79cb749cd"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSet"
+		key="de0d8513-8a1e-40f6-830d-9a7be1c9a984|identifiers" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSet><owner action="recreate" properyName="identifiers" type="org.openmrs.Patient" uuid="de0d8513-8a1e-40f6-830d-9a7be1c9a984"/><entry action="update" type="org.openmrs.PatientIdentifier" uuid="e3c3294b-8ff2-411b-8d5b-36403411e040"/></org.hibernate.collection.PersistentSet>]]></content>
+	</SyncItem>
+</items>

@@ -13,9 +13,15 @@
  */
 package org.openmrs.module.syncfix.web.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openmrs.api.context.Context;
+import org.openmrs.module.sync.SyncRecord;
+import org.openmrs.module.sync.SyncRecordState;
+import org.openmrs.module.sync.api.SyncService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,6 +37,13 @@ public class  SyncFixManageController {
 	
 	@RequestMapping(value = "/module/syncfix/manage", method = RequestMethod.GET)
 	public void manage(ModelMap model) {
-		model.addAttribute("user", Context.getAuthenticatedUser());
+		SyncService sc = Context.getService(SyncService.class);
+		List<SyncRecord> toEvaluate = new ArrayList<SyncRecord>();
+		for (SyncRecord record : sc.getSyncRecords()) {
+			if(record.getState() != SyncRecordState.COMMITTED ){
+				toEvaluate.add(record);
+			}
+		}
+
 	}
 }

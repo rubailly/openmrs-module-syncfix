@@ -1,0 +1,38 @@
+<items>
+	<SyncItem containedType="org.openmrs.Patient" key="97968984-3884-416c-af13-9ff6edf2f49f"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.Patient><personCreator type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</personCreator><birthdateEstimated type="boolean">true</birthdateEstimated><personDateChanged type="timestamp">2016-02-17T12:02:13.347+0200</personDateChanged><personVoided type="boolean">false</personVoided><creator type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</creator><personChangedBy type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</personChangedBy><patient type="boolean">false</patient><personDateCreated type="timestamp">2016-02-17T12:02:13.347+0200</personDateCreated><voided type="boolean">false</voided><birthdate type="timestamp">1971-01-01T12:02:13.348+0200</birthdate><dateCreated type="timestamp">2016-02-17T12:02:13.454+0200</dateCreated><gender type="string">F</gender><uuid type="string">97968984-3884-416c-af13-9ff6edf2f49f</uuid><dead type="boolean">false</dead></org.openmrs.Patient>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonAddress" key="881c5b58-8cc3-4e38-bfc9-0c9e575921cc"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonAddress><person type="org.openmrs.Person">97968984-3884-416c-af13-9ff6edf2f49f</person><countyDistrict type="string">Kayonza</countyDistrict><voided type="boolean">false</voided><dateCreated type="timestamp">2016-02-17T12:02:13.347+0200</dateCreated><stateProvince type="string">Eastern Province/Uburasirazuba</stateProvince><cityVillage type="string">Rwinkwavu</cityVillage><address1 type="string">Gihinga</address1><address3 type="string">Gihinga</address3><uuid type="string">881c5b58-8cc3-4e38-bfc9-0c9e575921cc</uuid><preferred type="boolean">false</preferred><creator type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</creator></org.openmrs.PersonAddress>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonName" key="9b3e0be9-08a5-4df1-8480-612e47d8820a"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonName><changedBy type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</changedBy><person type="org.openmrs.Person">97968984-3884-416c-af13-9ff6edf2f49f</person><voided type="boolean">false</voided><familyName type="string">MUKANKUBANA</familyName><dateCreated type="timestamp">2016-02-17T12:02:13.347+0200</dateCreated><givenName type="string">MARIE</givenName><uuid type="string">9b3e0be9-08a5-4df1-8480-612e47d8820a</uuid><preferred type="boolean">false</preferred><dateChanged type="timestamp">2016-02-17T12:02:13.347+0200</dateChanged><creator type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</creator></org.openmrs.PersonName>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PersonAttribute" key="30722071-eb83-486d-ad00-2de1b815c9ed"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PersonAttribute><person type="org.openmrs.Person">97968984-3884-416c-af13-9ff6edf2f49f</person><voided type="boolean">false</voided><value type="org.openmrs.Location">a2e183d4-26fe-102b-80cb-0017a47871b2</value><dateCreated type="timestamp">2016-02-17T12:02:13.501+0200</dateCreated><attributeType type="org.openmrs.PersonAttributeType">8d87236c-c2cc-11de-8d13-0010c6dffd0f</attributeType><uuid type="string">30722071-eb83-486d-ad00-2de1b815c9ed</uuid><creator type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</creator></org.openmrs.PersonAttribute>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.openmrs.PatientIdentifier" key="75e9f581-2e9e-401e-8e5e-956e6e5b1a6c"
+		state="NEW">
+		<content><![CDATA[<org.openmrs.PatientIdentifier><patient type="org.openmrs.Patient">97968984-3884-416c-af13-9ff6edf2f49f</patient><location type="org.openmrs.Location">a2e183d4-26fe-102b-80cb-0017a47871b2</location><voided type="boolean">false</voided><dateCreated type="timestamp">2016-02-17T12:02:13.347+0200</dateCreated><uuid type="string">75e9f581-2e9e-401e-8e5e-956e6e5b1a6c</uuid><preferred type="boolean">true</preferred><identifierType type="org.openmrs.PatientIdentifierType">c147ae5a-2700-102b-80cb-0017a47871b2</identifierType><identifier type="string">0416-000284</identifier><creator type="org.openmrs.User">58ad2c9d-e443-460c-89bd-11bfafa845ac</creator></org.openmrs.PatientIdentifier>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="97968984-3884-416c-af13-9ff6edf2f49f|addresses" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="addresses" type="org.openmrs.Patient" uuid="97968984-3884-416c-af13-9ff6edf2f49f"/><entry action="update" type="org.openmrs.PersonAddress" uuid="881c5b58-8cc3-4e38-bfc9-0c9e575921cc"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="97968984-3884-416c-af13-9ff6edf2f49f|names" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="names" type="org.openmrs.Patient" uuid="97968984-3884-416c-af13-9ff6edf2f49f"/><entry action="update" type="org.openmrs.PersonName" uuid="9b3e0be9-08a5-4df1-8480-612e47d8820a"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSortedSet"
+		key="97968984-3884-416c-af13-9ff6edf2f49f|attributes" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSortedSet><owner action="recreate" properyName="attributes" type="org.openmrs.Patient" uuid="97968984-3884-416c-af13-9ff6edf2f49f"/><entry action="update" type="org.openmrs.PersonAttribute" uuid="30722071-eb83-486d-ad00-2de1b815c9ed"/></org.hibernate.collection.PersistentSortedSet>]]></content>
+	</SyncItem>
+	<SyncItem containedType="org.hibernate.collection.PersistentSet"
+		key="97968984-3884-416c-af13-9ff6edf2f49f|identifiers" state="UPDATED">
+		<content><![CDATA[<org.hibernate.collection.PersistentSet><owner action="recreate" properyName="identifiers" type="org.openmrs.Patient" uuid="97968984-3884-416c-af13-9ff6edf2f49f"/><entry action="update" type="org.openmrs.PatientIdentifier" uuid="75e9f581-2e9e-401e-8e5e-956e6e5b1a6c"/></org.hibernate.collection.PersistentSet>]]></content>
+	</SyncItem>
+</items>

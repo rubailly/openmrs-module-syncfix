@@ -13,11 +13,15 @@
  */
 package org.openmrs.module.syncfix.api;
 
+import org.junit.Test;
 
 /**
  * Tests {@link ${SyncFixService}}.
  */
 public class  SyncFixServiceTest{
 	
-
+	@Test
+	public void shouldSetupContext() {
+		
+	}
 }
